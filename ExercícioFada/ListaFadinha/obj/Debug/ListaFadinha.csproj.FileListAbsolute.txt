@@ -1,0 +1,11 @@
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\bin\Debug\ListaFadinha.exe.config
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\bin\Debug\ListaFadinha.exe
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\bin\Debug\ListaFadinha.pdb
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\bin\Debug\ExercícioFada.dll
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\bin\Debug\ExercícioFada.pdb
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\obj\Debug\ListaFadinha.csprojResolveAssemblyReference.cache
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\obj\Debug\ListaFadinha.Lista.resources
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\obj\Debug\ListaFadinha.Properties.Resources.resources
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\obj\Debug\ListaFadinha.csproj.GenerateResource.Cache
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\obj\Debug\ListaFadinha.exe
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ListaFadinha\obj\Debug\ListaFadinha.pdb

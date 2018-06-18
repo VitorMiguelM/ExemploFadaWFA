@@ -1,0 +1,5 @@
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ExercícioFada\bin\Debug\ExercícioFada.dll
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ExercícioFada\bin\Debug\ExercícioFada.pdb
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ExercícioFada\obj\Debug\ModelFada.csprojResolveAssemblyReference.cache
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ExercícioFada\obj\Debug\ExercícioFada.dll
+C:\Users\105013\Documents\GitHub\ExemploFadaWFA\ExercícioFada\ExercícioFada\obj\Debug\ExercícioFada.pdb

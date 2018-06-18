@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercícioFada", "ExercícioFada\ExercícioFada.csproj", "{C4CBBE60-2F8A-4D75-A3C1-3A5E1F29807B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelFada", "ExercícioFada\ModelFada.csproj", "{C4CBBE60-2F8A-4D75-A3C1-3A5E1F29807B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaFadinha", "ListaFadinha\ListaFadinha.csproj", "{8A6F9658-7F88-49FD-923D-C2E949A34E60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C4CBBE60-2F8A-4D75-A3C1-3A5E1F29807B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4CBBE60-2F8A-4D75-A3C1-3A5E1F29807B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4CBBE60-2F8A-4D75-A3C1-3A5E1F29807B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6F9658-7F88-49FD-923D-C2E949A34E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6F9658-7F88-49FD-923D-C2E949A34E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6F9658-7F88-49FD-923D-C2E949A34E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6F9658-7F88-49FD-923D-C2E949A34E60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
