@@ -73,6 +73,19 @@ namespace ExercícioFada
             }
         }
 
+        public string Elemento
+        {
+            get { return elemento; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new Exception("Campo elemento deve ser preenchido");
+                }
+                elemento = value;
+            }
+        }
+
 
 //public string nome;
   //public string familia;
