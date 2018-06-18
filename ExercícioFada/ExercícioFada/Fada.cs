@@ -42,14 +42,35 @@ namespace ExercícioFada
                 if (string.IsNullOrEmpty(value))
                 {
                     throw new Exception("O campo família deve ser preenchido");
-                }
-                if (value.Count() < 3)
-                {
-                    throw new Exception("Família deve conter ao menos 3 caracteres");
-                }
+                }               
                 familia = value;
             }
         }
+
+        public string Cor
+        {
+            get { return cor; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new Exception("O campo cor deve ser preenchido");
+                }
+                cor = value;
+            }
+        }
+
+
+//public string nome;
+  //public string familia;
+     //public string cor;
+    //public string corDaAsa;
+     //public double tamanhoDaAsa;
+       //public bool barulho;
+        //public string elemento;
+        //public bool mulher;
+
+
         
     }
 }
