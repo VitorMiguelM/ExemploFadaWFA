@@ -60,6 +60,19 @@ namespace ExercícioFada
             }
         }
 
+        public string CorDaAsa
+        {
+            get { return corDaAsa; }
+            set 
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new Exception("O campo cor da asa deve ser preenchido");
+                }
+                corDaAsa = value;
+            }
+        }
+
 
 //public string nome;
   //public string familia;
