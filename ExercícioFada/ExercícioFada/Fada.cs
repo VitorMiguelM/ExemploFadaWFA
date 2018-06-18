@@ -33,6 +33,23 @@ namespace ExercícioFada
                 nome = value;
             }
         }
+
+        public string Familia
+        {
+            get { return familia; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new Exception("O campo família deve ser preenchido");
+                }
+                if (value.Count() < 3)
+                {
+                    throw new Exception("Família deve conter ao menos 3 caracteres");
+                }
+                familia = value;
+            }
+        }
         
     }
 }
