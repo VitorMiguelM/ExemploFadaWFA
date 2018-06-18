@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExercícioFada;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,15 +13,39 @@ namespace ListaFadinha
 {
     public partial class Lista : Form
     {
+        List<Fada> fadas = new List<Fada>();
+
         public Lista()
         {
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Fada fadas = new Fada();
+                string Nome = txtNome.Text;
+                string Familia = cbFamilia.SelectedItem.ToString();
+                string Cor = cbCor.SelectedItem.ToString();
+                string CorDaAsa = cbCorDaAsa.SelectedItem.ToString();
+                string Elemento = cbElemento.SelectedItem.ToString();
+
+                
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void AdicionarFadaNaTabalha()
         {
 
         }
+
+       
+
         
 
     }

@@ -12,9 +12,9 @@ namespace ExercícioFada
         public string familia;
         public string cor;
         public string corDaAsa;
-        public double tamanhoDaAsa;
-        public bool barulho;
         public string elemento;
+        public bool tamanhoDaAsa;
+        public bool barulho;
         public bool mulher; 
 
         public string Nome
@@ -29,6 +29,10 @@ namespace ExercícioFada
                 if (value.Count() < 3)
                 {
                     throw new Exception("Nome deve conter ao menos 3 caracteres");
+                }
+                if (value.Count() < 50)
+                {
+                    throw new Exception("Nome deve ter menos de 50 caracteres");
                 }
                 nome = value;
             }
@@ -86,15 +90,27 @@ namespace ExercícioFada
             }
         }
 
+        public string Sexo
+        {
+            get { return Sexo; }
+            set 
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new Exception("O campo sexo deve ser preenchido");
+                }
+                if(value.Count() >= 8)
+                {
+                    throw new Exception("Sexo deve conter ao menos 8 caracteres")
+                }
+                if(value.Count() <= 12)
+                {
+                    throw new Exception("Sexo deve ter menos de 12 caracteres");
+                }
 
-//public string nome;
-  //public string familia;
-     //public string cor;
-    //public string corDaAsa;
-     //public double tamanhoDaAsa;
-       //public bool barulho;
-        //public string elemento;
-        //public bool mulher;
+            }
+        }
+
 
 
         
